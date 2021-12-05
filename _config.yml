@@ -1,0 +1,51 @@
+# Build settings
+permalink: /blog/:year/:title/
+markdown: kramdown
+highlighter: pygments
+plugins: [jekyll-paginate-v2]
+
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: "/page/:num/"
+
+comments: true
+
+source: source
+destination: _site
+sass:
+  sass_dir: _sass
+  style: compressed # expanded
+
+# SEO settings
+title: ほりいみほのサイト
+description: "このwebサイトは現在準備中です"
+keywords: "Jekyll, theme, free, download, SEO, blog, web"
+url: http://horiimiho.jp/
+baseurl: ""
+
+google_analytics: 
+# repo: http://github.com/hori/end2end
+# disqus_shortname: "nandothemes"
+# disqus_site_shortname: "nandothemes"
+
+# Author settings
+author:
+  name: ほりいみほ
+  job: 旅モデル
+  bio: "このwebサイトは現在準備中です。Twitter、Instagram、Facebookをご覧ください。"
+  thumb: /images/author.jpg
+  #email: nandomoreira.me@gmail.com
+  url: http://horiimiho.jp/
+  # github: https://github.com/horiimiho29
+  twitter: https://twitter.com/horiimiho29
+  instagram: https://instagram.com/horiimiho29
+  facebook: https://facebook.com/horiimiho29
+  # linkedin: https://linkedin.com/in/nandomoreirame
+
+# navbar pages
+navbar:
+  - slug: about
+    title: About
+
+exclude: ["config.rb", "src", "Gemfile", "Gemfile.lock", "package.json","README.md", "Rakefile"]
