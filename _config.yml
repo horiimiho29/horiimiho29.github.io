@@ -11,7 +11,7 @@ pagination:
 
 comments: true
 
-source: source
+source: docs
 destination: _site
 sass:
   sass_dir: _sass
