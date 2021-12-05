@@ -11,8 +11,8 @@ pagination:
 
 comments: true
 
-source: docs
-destination: _site
+source: source
+destination: docs
 sass:
   sass_dir: _sass
   style: compressed # expanded
