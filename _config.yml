@@ -3,6 +3,7 @@ permalink: /blog/:year/:title/
 markdown: kramdown
 highlighter: pygments
 plugins: [jekyll-paginate-v2]
+lang: ja
 
 pagination:
   enabled: true
@@ -19,10 +20,11 @@ sass:
 
 # SEO settings
 title: ほりいみほ
-description: "ほりいみほのサイトです"
-keywords: "Jekyll, theme, free, download, SEO, blog, web"
+description: "【旅×モデル】 旅人として、27ヶ国83都市渡航。 バックパッカー一人旅スタイルが好き。 いつも全力自撮り撮影。 チェコ共和国大使館・チェコ政府観光局主催 チェコ親善アンバサダー2020（2019年に取材旅行参加） 世界遺産学検定2級 モデル歴は8年。 地元奈良を中心にモデル、ショー、観光PR活動もしています。"
+keywords: "旅, モデル, 奈良, チェコ共和国, チェコ政府観光局主催 チェコ親善アンバサダー, 旅×モデル"
 url: http://horiimiho.jp/
 baseurl: ""
+siteurl: "https://horiimiho.jp"
 
 google_analytics: 
 # repo: http://github.com/hori/end2end
